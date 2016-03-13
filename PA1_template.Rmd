@@ -207,7 +207,7 @@ stepsPerDay2 <- aggregate(steps ~ date, data = dfImputed, sum, na.rm = TRUE) # d
 
 ggplot(stepsPerDay2, aes(steps)) +
         geom_histogram(binwidth = 1000, color = "firebrick4", fill = "firebrick2") +
-        ggtitle("Histogram of the total number of steps taken each day imputating missing values") +
+        ggtitle("Histogram of the total number of steps per day imputating missing values") +
         xlab("Total steps per day") +
         ylab("Frequency") +
         theme(plot.title = element_text(family = "Helvetica", size=14, face="bold"),
