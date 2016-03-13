@@ -7,10 +7,6 @@ output:
     keep_md: true
 ---
 
-Reproducible Research: Course Project 1
-==========================================
-by Antonio Serrano, March 13th 2016
-
 ### Introduction
 
 This document has been written to complete the assignment "Course Project 1" in the context of the Reproducible Research course offered by Johns Hopkins University through Coursera.org
